@@ -5,10 +5,11 @@
 	"type": "module",
 	"exports": {
 		".": "./src/index.js",
-		"./calendar-highlights": "./src/calendar-highlights.js"
+		"./calendar-highlights": "./src/calendar-highlights.js",
+		"./event-reservation": "./src/event-reservation.js"
 	},
 	"scripts": {
-		"check": "node --check src/index.js && node --check src/calendar-highlights.js",
+		"check": "node --check src/index.js && node --check src/calendar-highlights.js && node --check src/event-reservation.js",
 		"test": "node --test test/*.test.js"
 	}
 }
