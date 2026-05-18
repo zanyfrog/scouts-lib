@@ -6,10 +6,11 @@
 	"exports": {
 		".": "./src/index.js",
 		"./calendar-highlights": "./src/calendar-highlights.js",
-		"./event-reservation": "./src/event-reservation.js"
+		"./event-reservation": "./src/event-reservation.js",
+		"./leadership-position": "./src/leadership-position.js"
 	},
 	"scripts": {
-		"check": "node --check src/index.js && node --check src/calendar-highlights.js && node --check src/event-reservation.js",
+		"check": "node --check src/index.js && node --check src/calendar-highlights.js && node --check src/event-reservation.js && node --check src/leadership-position.js",
 		"test": "node --test test/*.test.js"
 	}
 }
